@@ -108,9 +108,11 @@ jobs:
         %description
         Placeholder
         %build
+        cd ..
         %cmake
         %cmake_build
         %install
+        cd ..
         %cmake_install
         %files
         /*
